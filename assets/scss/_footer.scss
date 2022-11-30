@@ -1,0 +1,39 @@
+.footer {
+    min-height: 20vh;
+    background-color: $blue;
+    padding: 50px 0px;
+}
+.ft {
+    &__block {
+        h4 {
+            color: $white;
+            margin-left: 30px;
+        }
+        p {
+            color: $white;
+            margin-top: 24px; 
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            li {
+                list-style: none;
+                margin-bottom: 10px;
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    transition: .2s ease-in-out;
+                    &:hover {
+                        color: $gold;
+                        text-decoration: underline;
+                    }
+                    img {
+                        margin-right: 8px;
+                        width: 22px;
+                        height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

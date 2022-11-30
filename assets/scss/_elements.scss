@@ -1,0 +1,87 @@
+.toggleMenu {
+    display: none;
+    background: transparent;
+    border: 0px none;
+    outline: 0px none;
+}
+.tab-item {
+    padding: 14px 35px;
+    font-weight: 600;
+    border-radius: 2px;
+    background: $blue;
+    color: #fff;
+    border: 0px;
+}
+
+.sub__text {
+    color: $gray;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.title__section {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    color: $gray;
+}
+
+.color-blue {
+    background-color: $dark__blue;
+}
+.control-slide {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+}
+
+.section__title {
+    border-left: 5px solid $gold;
+    padding-left: 10px;
+    font-weight: 800;
+    color: $gray;
+}
+
+.price {
+    color: $gold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.btn__buy {
+    padding: 10px 25px;
+    background: $blue;
+    border-radius: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+        opacity: 0.8;
+        transition: 0.3s;
+        color: #fff;
+    }
+}
+
+.main__button {
+    background-color: $gold;
+    padding: 14px 35px;
+    font-weight: 600;
+    border-radius: 2px;
+    color: $gray;
+    border: 0px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-radius: 2px;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+.intro__block {
+    font-weight: bold;
+    color: $gray;
+}

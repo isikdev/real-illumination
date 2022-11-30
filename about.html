@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Illumination - О компании</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./assets/libs/ion/ion.tabs.css">
+    <link rel="stylesheet" href="./assets/libs/ion/ion.tabs.skinBordered.css">
+    <link rel="stylesheet" href="./assets/libs/ion/ion.tabs.skinFlat.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="nav__content d-flex justify-content-between w-100 align-items-center row">
+                    <div class="nav__brand col-2">
+                        <a href="./about.html"><img src="/assets/img/logo.svg" alt="logo"></a>
+                        <button class="toggleMenu open"><img src="./assets/img/open.svg" alt="burger"></button>
+                    </div>
+                    <div class="nav__links d-flex justify-content-between align-items-center col-10">
+                        <nav>
+                            <ul class="d-flex">
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Проекты</a></li>
+                                <li><a href="#">Доставка и оплата</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="nav__link-mb-icon d-flex align-items-center">
+                            <div class="nav__ml d-flex">
+                                <p>info@i-lights.ru</p>
+                            </div>
+                            <div class="nav__ml d-flex mx-3">
+                                <p>+7 (495) 233 55 57</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav__links-mb d-flex flex-column justify-content-center align-items-center col-12">
+                        <nav>
+                            <ul class="d-flex flex-column">
+                                <li class="fs-1 text-center mx-auto mb-5 "><a href="#">О компании</a></li>
+                                <li class="fs-1 text-center mx-auto mb-5 "><a href="#">Услуги</a></li>
+                                <li class="fs-1 text-center mx-auto mb-5 "><a href="#">Проекты</a></li>
+                                <li class="fs-1 text-center mx-auto mb-5 "><a href="#">Доставка и оплата</a></li>
+                                <li class="fs-1 text-center mx-auto mb-5 "><a href="#">Контакты</a></li>
+                                <hr style="border: 1px solid gold; z-index: 10000; width: 100%;">
+                                <div class="nav__link-mb-icon-act d-flex flex-column align-items-center">
+                                    <div class="nav__ml d-flex">
+                                        <p class="fs-1 mt-5 mb-5">info@i-lights.ru</p>
+                                    </div>
+                                    <div class="nav__ml d-flex mx-3">
+                                        <p class="fs-1">+7 (495) 233 55 57</p>
+                                    </div>
+                                </div>
+                                <button class="toggleMenu close"><img src="./assets/img/close.svg"
+                                        alt="burger"></button>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="tree">
+            <div class="container">
+                <div class="tree__content d-flex align-items-center justify-content-left">
+                    <p>Главная - О компании</p>
+                </div>
+            </div>
+        </section>
+        <section class="about mb-5">
+            <div class="container">
+                <div class="about__intro">
+                    <h1 class="title__section mt-3 mb-3">О компании</h1>
+                </div>
+                <div class="about__tabs d-xl-flex col-md-12 nav nav-tabs" role="tablist">
+                    <button class="tab-item btn btn-primary mb-3 mx-2 mx-xl-2 active"
+                        id="who-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#who-tab-pane"
+                        type="button"
+                        role="tab"
+                        aria-controls="who-tab-pane"
+                        aria-selected="true">Кто мы</button>
+                    <button class="tab-item btn btn-outline-primary mb-3 mx-2 mx-xl-2"
+                        id="help-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#help-tab-pane"
+                        type="button"
+                        role="tab"
+                        aria-controls="help-tab-pane"
+                        aria-selected="false">В чем мы можем Вам помочь</button>
+                    <button class="tab-item btn btn-outline-primary mb-3 mx-2 mx-xl-2"
+                        id="about-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#about-tab-pane"
+                        type="button"
+                        role="tab"
+                        aria-controls="about-tab-pane"
+                        aria-selected="false">О продукции</button>
+                    <button class="tab-item btn btn-outline-primary mb-3 mx-2 mx-xl-2"
+                        id="company-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#company-tab-pane"
+                        type="button"
+                        role="tab"
+                        aria-controls="company-tab-pane"
+                        aria-selected="false">Реквизиты компании</button>
+                </div>
+                <div class="about__text tab-content">
+                    <div class="about__text-item-1 tab-pane active show" id="who-tab-pane" aria-labelledby="who-tab" role="tabpanel"  tabindex="0">
+                        <p class="sub__text">Мы ценим Ваше время, поэтому, коротко о главном.</p>
+                        <p class="sub__text">Наша компания была образована с целью предложить Российскому рынку
+                            профессиональные
+                            светотехнические решения для освещения магазинов, офисов и объектов
+                            общественно-развлекательного назначения. Сегодня мы поставляем осветительное оборудование
+                            различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же являемся
+                            дистрибьюторами лучших Российских производителей. А среди наших клиентов, сетевые и частные
+                            магазины одежды и обуви, продуктовые магазины, торговые и офисные центры, представители
+                            индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и частные
+                            заказчики.</p>
+                        <p class="sub__text">
+                            Мы предоставляем полный комплекс услуг в освещении от идеи до поставки: проектируем,
+                            подбираем оборудование, разрабатываем концепцию освещения и осуществляем поставку.
+                        </p>
+                        <p class="sub__text">
+                            Основная наша специализация - это коммерческое освещение, т.е. поставки освещения для тех
+                            мест, где люди работают, занимаются спортом, совершают покупки, проводят досуг и отдыхают. А
+                            стилистические направления, которые мы охватываем начинаются со специальных светильников для
+                            функционального использования и доходят до дизайнерских светильников от всемирно известных
+                            производителей.
+                        </p>
+                    </div>
+                    <div class="about__text-item-1 tab-pane" id="help-tab-pane" aria-labelledby="help-tab" role="tabpanel">
+                        <p class="sub__text">Контент 2</p>
+                    </div>
+                    <div class="about__text-item-1 tab-pane" id="about-tab-pane" aria-labelledby="about-tab" role="tabpanel">
+                        <p class="sub__text">Контент 3</p>
+                        </p>
+                    </div>
+                    <div class="about__text-item-1 tab-pane" id="company-tab-pane" aria-labelledby="company-tab" role="tabpanel">
+                        <p class="sub__text">Контент 4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <secion class="our__solutions mt-5">
+            <div class="container">
+                <h1 class="title__section mt-3 mb-3">Наши решения</h1>
+
+                <div class="solutions__content d-flex row">
+                    <div class="solutions__tabs nav nav-tabs d-xl-flex flex-xl-column col-xl-3 col-md-12 nav nav-tabs" role="tablist">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <button class="solution__tab-item tab-item btn btn-primary  mb-3 mx-auto w-100 active"
+                                    id="shop-tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#shop-tab-pane"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="shop-tab-pane"
+                                    aria-selected="true">Для магазинов</button>
+
+                            <button class="solution__tab-item tab-item btn btn-primary  mb-3 mx-auto w-100"
+                                    id="city-tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#city-tab-pane"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="city-tab-pane"
+                                    aria-selected="false">Для общественных мест</button>
+
+                            <button class="solution__tab-item tab-item btn btn-primary  mb-3 mx-auto w-100"
+                                    id="landshaft-tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#landshaft-tab-pane"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="landshaft-tab-pane"
+                                    aria-selected="false">Для фасадов и ландшафтов</button>
+
+                            <button class="solution__tab-item tab-item btn btn-primary  mb-3 mx-auto w-100"
+                                    id="cafe-tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#cafe-tab-pane"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="cafe-tab-pane"
+                                    aria-selected="false">Для кафе и ресторанов</button>
+
+                            <button class="solution__tab-item tab-item btn btn-primary  mb-3 mx-auto w-100"
+                                    id="office-tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#office-tab-pane"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="office-tab-pane"
+                                    aria-selected="false">Для офисов</button>
+
+                            <button class="solution__tab-item tab-item btn btn-primary  mb-3 mx-auto w-100"
+                                    id="homes-tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#homes-tab-pane"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="homes-tab-pane"
+                                    aria-selected="false">Для жилых интерьеров</button>
+                        </ul>
+                    </div>
+                    <div class="solution__tab-content col-9 tab-content">
+
+                        <div class="solution__tab-cn-item tab-pane active show" id="shop-tab-pane" aria-labelledby="shop-tab" role="tabpanel"  tabindex="0">
+                            <p class="sub__text">
+                                Основная наша специализация - это коммерческое освещение, т.е. поставки освещения для
+                                тех
+                                мест, где люди работают, занимаются спортом, совершают покупки, проводят досуг и
+                                отдыхают. А
+                                стилистические направления, которые мы охватываем начинаются со специальных светильников
+                                для
+                                функционального использования и доходят до дизайнерских светильников от всемирно
+                                известных
+                                производителей.
+                            </p>
+                        </div>
+
+                        <div class="solution__tab-cn-item tab-pane" id="city-tab-pane" aria-labelledby="city-tab"  role="tabpanel">
+                            <p class="sub__text">
+                                Контент 2
+                            </p>
+                        </div>
+                        <div class="solution__tab-cn-item tab-pane" id="landshaft-tab-pane" aria-labelledby="landshaft-tab"  role="tabpanel">
+                            <p class="sub__text">
+                                Контент 3
+                            </p>
+                        </div>
+                        <div class="solution__tab-cn-item tab-pane" id="cafe-tab-pane" aria-labelledby="cafe-tab"  role="tabpanel">
+                            <p class="sub__text">
+                                Контент 4
+                            </p>
+                        </div>
+                        <div class="solution__tab-cn-item tab-pane" id="office-tab-pane" aria-labelledby="office-tab"  role="tabpanel">
+                            <p class="sub__text">
+                                Контент 5
+                            </p>
+                        </div>
+                        <div class="solution__tab-cn-item tab-pane" id="homes-tab-pane" aria-labelledby="homes-tab"  role="tabpanel">
+                            <p class="sub__text">
+                                Контент 6
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </secion>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-xl-3 col-lg-3 col-xxl-3 ft__block">
+                    <a href="./about.html"><img src="./assets/img/logo-footer.svg" alt="logo"></a>
+                    <p class="sub__text">© Technolight 2015-2022</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3  col-xl-3 col-xxl-3 ft__block">
+                    <h4>Каталог товаров</h4>
+                    <ul>
+                        <li><a href="#">Трековые светильники</a></li>
+                        <li><a href="#">Встраиваемые светильники</a></li>
+                        <li><a href="#">Профильные светильники</a></li>
+                        <li><a href="#">Фигурные светильники</a></li>
+                        <li><a href="#">Светильники Армстронг</a></li>
+                        <li><a href="#">Армстронг с равномерной засветкой</a></li>
+                        <li><a href="#">Произовдители</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3 col-xxl-3 ft__block">
+                    <h4>Тут заголовок</h4>
+                    <ul>
+                        <li><a href="#">Как заказать</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Реквизиты компании</a></li>
+                        <li><a href="#">Правовая информация</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3  col-xl-3 col-xxl-3 ft__block">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li><a href="#"><i class="my-location fa fa-location"></i> место магазина</a></li>
+                        <li><a href="#"><img src="./assets/img/ico/tel.svg" alt="ico">+7 (495) 233 55 57</a></li>
+                        <li><a href="#"><img src="./assets/img/ico/email.svg" alt="ico">info@i-lights.ru</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+<!--    <script src="./assets/libs/ion/ion.tabs.min.js"></script>-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

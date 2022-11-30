@@ -1,0 +1,48 @@
+@media screen and (max-width: 976px){
+    .open {
+        display: block;
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        img {
+            width: 40px;
+        }
+    }
+    .close {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        display: block;
+        img {
+            width: 60px;
+        }
+    }
+    .nav__links-mb {
+        display: block;
+    }
+    .nav__links {
+        display: none;
+        nav {
+            display: none;
+        }
+    }
+    .nav__link-mb-icon {
+        display: none;
+        .nav__ml  {
+            display: none;
+            p {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1147px) {
+    .nav__links {
+        li {
+            font-size: 11px;
+        }
+    }
+    .nav__ml p {
+        font-size: 11px;
+    }
+}

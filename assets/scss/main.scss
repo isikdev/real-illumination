@@ -1,0 +1,128 @@
+@import "_root";
+@import "_elements";
+@import "_footer";
+@import "_header";
+@import "_responsive";
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+    font-family: "Montserrat";
+    position: relative;
+    background: $white;
+}
+section {
+    margin-top: 100px;
+    &:nth-child(1) {
+        margin-top: 0px;
+    }
+}
+
+.container {
+    padding: 0px 10px;
+}
+
+.tree {
+    &__content {
+        p {
+            font-size: 12px;
+            line-height: 14.63px;
+            color: $gray;
+            font-weight: 500;
+            margin-top: 17px;
+        }
+    }
+}
+.about {
+    margin-top: 55px;
+    &__tabs {
+        margin-top: 39px;
+    }
+    &__text {
+        margin-top: 20px;
+    }
+}
+
+// index.html
+.info {
+    &__intro {
+        h1 {
+            span {
+                color: $gold;
+            }
+        }
+        p {
+            margin-top: 40px;
+            color: $gray;
+        }
+    }
+}
+.carousel {
+    position: relative;
+    &-item {
+        img {
+            width: 100%;
+        }
+    }
+}
+.catalog {
+    &__tabs {
+        margin-top: 50px;
+    }
+}
+
+.portfolio {
+    &__item-card {
+        max-width: 100%;
+        width: 304px;
+        height: 200px;
+    }
+    &__item-img {
+        max-width: 100%;
+        width: 304px;
+        height: 200px;
+        background: gray;
+        padding: 0px;
+    }
+    &__item-intro {
+        h5 {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 22px;
+            color: $gray;
+            margin-top: 14px;
+        }
+        .sub__text {
+            max-width: 90%;
+        }
+    }
+}
+.faq {
+    &__intro {
+        position: relative;
+        h1 {
+            font-size: 34px;
+        }
+        img {
+            position: absolute;
+            left: -2%;
+            top: -2%;
+        }
+    }
+    &__form {
+        input {
+            padding: 10px 10px;
+            border: 0px;
+            border-bottom: 2px solid gray;
+            outline: none;
+            background: transparent;
+            font-size: 18px;
+            margin-bottom: 26px;
+        }
+    }
+}
