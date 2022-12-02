@@ -126,3 +126,22 @@ section {
         }
     }
 }
+.product {
+    &__for {
+        max-width: 300px;
+        position: relative;
+    }
+    &__slide-item {
+        img {
+            margin: 0px auto;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &__setting {
+        hr {
+            max-width: 100%;
+            border: 3px solid $gray;
+        }
+    }
+}

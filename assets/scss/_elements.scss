@@ -19,6 +19,22 @@
     font-size: 14px;
     line-height: 24px;
 }
+.sub__text-bold {
+    font-weight: bold;
+}
+.sub__list {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    list-style: none;
+    &::before {
+        color: $gold;
+        content: "▪";
+        // background-image: url("");
+        padding-right: 10px;
+    }
+}
 
 .title__section {
     font-size: 24px;
@@ -84,4 +100,19 @@
 .intro__block {
     font-weight: bold;
     color: $gray;
+}
+
+.setting__product {
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid $lg__gray;
+    &:hover {
+        border: 1px solid $gold;
+    }
+    &:active {
+        background: $gold;
+    }
 }
